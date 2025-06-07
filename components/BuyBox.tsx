@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 
 const pricing = {
   subscribe: {
-    1: { price: 49, old: 69, percent: 29 },
-    3: { price: 119, old: 207, percent: 43 },
-    6: { price: 149, old: 414, percent: 64 }
+    1: { price: 29, old: 49, percent: 41 },
+    3: { price: 79, old: 147, percent: 46 },
+    6: { price: 149, old: 294, percent: 49 }
   },
   once: {
-    1: { price: 69, old: 69, percent: 0 },
-    3: { price: 147, old: 207, percent: 29 },
-    6: { price: 219, old: 414, percent: 47 }
+    1: { price: 39, old: 49, percent: 20 },
+    3: { price: 109, old: 147, percent: 26 },
+    6: { price: 199, old: 294, percent: 32 }
   }
 };
 const checkoutLinks = {
