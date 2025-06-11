@@ -33,7 +33,7 @@ const BuyBox = () => {
     <section id="pricing-section" className="w-full flex flex-col items-center bg-white py-8 md:py-16 px-2 md:px-4">
       <div className="max-w-3xl w-full mx-auto rounded-2xl shadow-2xl bg-gradient-to-br from-blue-50 via-white to-blue-50 border-2 border-blue-200 p-0 md:p-0">
         <div className="px-6 md:px-12 pt-8 pb-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-blue-700 mb-2">Smoke Smell Removing Device</h2>
+          <h2 className="text-3xl md:text-4xl font-extrabold text-blue-700 mb-2">Choose How Many You Need</h2>
           <div className="text-lg text-blue-500 mb-2 font-semibold">Mid-Summer Special Offer</div>
           
           {/* Product Image */}
@@ -45,31 +45,6 @@ const BuyBox = () => {
               width={500} 
               height={500} 
             />
-          </div>
-
-          {/* Features/Benefits Box */}
-          <div className="w-full max-w-lg mx-auto mt-2 mb-6">
-            <ul className="border-2 border-blue-200 bg-white rounded-xl px-6 py-4 grid grid-cols-1 gap-2 text-base font-medium shadow">
-              <li className="flex items-center justify-between gap-2">
-                <span className="flex items-center gap-2 text-green-600 font-bold">✔ Mid-Year Discount</span>
-                <span className="line-through text-blue-400">$20</span>
-              </li>
-              <li className="flex items-center justify-between gap-2">
-                <span className="flex items-center gap-2 text-blue-600">🎁 <span className="font-bold">FREE</span> Gift When Ordering 2 or More</span>
-                <span className="line-through text-blue-400">$18</span>
-              </li>
-              <li className="flex items-center justify-between gap-2">
-                <span className="flex items-center gap-2 text-blue-600">🎧 <span className="font-bold">FREE</span> Home Smoke Remover Guide</span>
-                <span className="line-through text-blue-400">$21</span>
-              </li>
-              <li className="flex items-center justify-between gap-2">
-                <span className="flex items-center gap-2 text-blue-600">🚚 <span className="font-bold">FREE</span> Priority Shipping</span>
-                <span className="line-through text-blue-400">$9</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="flex items-center gap-2 text-green-600 font-bold">✔ VIP Access to New Tips & Tricks</span>
-              </li>
-            </ul>
           </div>
 
           {/* Unit Options */}
@@ -111,9 +86,34 @@ const BuyBox = () => {
           </a>
 
           {/* Money Back Guarantee */}
-          <div className="text-sm text-gray-600 mt-4 flex items-center justify-center gap-2">
+          <div className="text-sm text-gray-600 mt-4 flex items-center justify-center gap-2 mb-4">
             <span>🛡️</span>
             <span>90-Day Money Back Guarantee</span>
+          </div>
+
+          {/* Features/Benefits Box */}
+          <div className="w-full max-w-lg mx-auto">
+            <ul className="border-2 border-blue-200 bg-white rounded-xl px-6 py-4 grid grid-cols-1 gap-2 text-base font-medium shadow">
+              <li className="flex items-center justify-between gap-2">
+                <span className="flex items-center gap-2 text-green-600 font-bold">✔ Mid-Year Discount</span>
+                <span className="line-through text-blue-400">$20</span>
+              </li>
+              <li className="flex items-center justify-between gap-2">
+                <span className="flex items-center gap-2 text-blue-600">🎁 <span className="font-bold">FREE</span> Gift When Ordering 2 or More</span>
+                <span className="line-through text-blue-400">$18</span>
+              </li>
+              <li className="flex items-center justify-between gap-2">
+                <span className="flex items-center gap-2 text-blue-600">🎧 <span className="font-bold">FREE</span> Home Smoke Remover Guide</span>
+                <span className="line-through text-blue-400">$21</span>
+              </li>
+              <li className="flex items-center justify-between gap-2">
+                <span className="flex items-center gap-2 text-blue-600">🚚 <span className="font-bold">FREE</span> Priority Shipping</span>
+                <span className="line-through text-blue-400">$9</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="flex items-center gap-2 text-green-600 font-bold">✔ VIP Access to New Tips & Tricks</span>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
