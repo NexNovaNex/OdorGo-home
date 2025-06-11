@@ -504,6 +504,14 @@ export default function Page() {
             <div className="text-gray-700 mb-6">
               Not "fresher" — completely odor-free. For the first time in years, Jake opened his truck door and smelled... nothing. Clean air. No smoke. No artificial fragrances. Just clean.
             </div>
+            <div className="flex justify-center">
+              <button 
+                className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-12 rounded-full text-xl transition shadow-lg" 
+                onClick={() => document.getElementById('pricing-section')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Get Your OdorGo Now
+              </button>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">

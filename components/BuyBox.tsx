@@ -34,15 +34,15 @@ const BuyBox = () => {
       <div className="max-w-3xl w-full mx-auto rounded-2xl shadow-2xl bg-gradient-to-br from-blue-50 via-white to-blue-50 border-2 border-blue-200 p-0 md:p-0">
         <div className="px-6 md:px-12 pt-8 pb-4 text-center">
           <h2 className="text-3xl md:text-4xl font-extrabold text-blue-700 mb-2">Smoke Smell Removing Device</h2>
-          <div className="text-lg text-blue-500 mb-4 font-semibold">Mid-Summer Special Offer</div>
+          <div className="text-lg text-blue-500 mb-2 font-semibold">Mid-Summer Special Offer</div>
           
           {/* Product Image */}
-          <div className="flex justify-center mb-6">
+          <div className="flex justify-center -mx-6 md:-mx-12 mb-4">
             <img 
               src="/product-image.jpg" 
               alt="OdorGo device" 
-              className="w-64 h-80 md:w-96 md:h-[500px] object-contain rounded-xl shadow-lg bg-white" 
-              width={384} 
+              className="w-full max-w-[500px] h-auto object-contain" 
+              width={500} 
               height={500} 
             />
           </div>
