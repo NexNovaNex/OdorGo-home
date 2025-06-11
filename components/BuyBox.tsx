@@ -71,7 +71,12 @@ const BuyBox = () => {
                   <span className="line-through text-gray-400 text-sm mr-1">${pricing[n as 1 | 2 | 4 | 6].old}</span>
                   <span>${pricing[n as 1 | 2 | 4 | 6].price}</span>
                 </div>
-                <div className="text-xs text-blue-600">Perfect for {n === 1 ? 'single car' : n === 2 ? 'car & home' : n === 4 ? 'multiple vehicles' : 'whole house'}</div>
+                <div className="text-xs text-blue-600">
+                  {n === 1 ? 'Perfect for single room' : 
+                   n === 2 ? 'Perfect for living areas and Car' : 
+                   n === 4 ? 'Perfect for whole home and Car' : 
+                   'Perfect for whole house and multiple cars'}
+                </div>
               </div>
             ))}
           </div>
