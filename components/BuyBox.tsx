@@ -15,7 +15,7 @@ const checkoutLinks = {
 };
 
 const BuyBox = () => {
-  const [units, setUnits] = useState<1 | 2 | 4 | 6>(4);
+  const [units, setUnits] = useState<1 | 2 | 4 | 6>(2);
   const priceData = pricing[units as 1 | 2 | 4 | 6];
 
   const handleAddToCart = () => {
